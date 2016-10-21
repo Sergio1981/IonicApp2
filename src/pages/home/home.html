@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+    <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+       <ion-card>
+             <ion-card-content *ngFor="let user of users">
+                   <h1>{{user.nome}}</h1>
+                   <p>{{user.email}}</p>
+             </ion-card-content>
+       </ion-card>
+</ion-content>
