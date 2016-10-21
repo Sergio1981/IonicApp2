@@ -4,7 +4,15 @@ Aplicação criada com IONIC 2, TYPESCRIPT E ANGULAR2
 
 Esta aplicação foi desenvolvida por Sergio Costa do canal FULL STACKER DEVELOPER.
 
-Para que sua aplicação funcione corretamente é necessário que você inicie seguindo o vídeo introdutório da série veiculada no canal.
+Para que sua aplicação funcione corretamente é necessário que você inicie seguindo 
+o vídeo introdutório da série veiculada no canal.
+
+Teremos apenas a pasta src e resouces então é necessário a criação do app com o comando
+
+ionic start ionic-app-2 blank --v2
+
+Em seguida inserir as pastas deste documento em seu projeto. Porém aconselho que 
+acompanhe a serie e utilize este documento apenas para consulta.
 
 Informações Importantes
 =====================================================================
