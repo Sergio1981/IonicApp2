@@ -1,3 +1,4 @@
+#IonicApp2
 Aplicação criada com IONIC 2, TYPESCRIPT E ANGULAR2
 =====================================================================
 
