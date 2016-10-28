@@ -8,20 +8,20 @@ import { ServiceProvider } from '../../providers/service-provider';
   selector: 'page-home',
   templateUrl: 'home.html'
 })
-export class HomePage {
+export class HomePage{
 
       users : any[];
 
-  constructor(public navCtrl: NavController, public service : ServiceProvider) {
-    this.getData();
-  }
+      constructor(public navCtrl: NavController, public service : ServiceProvider) {
+        this.getDados();//inicio da requisição
+      }
 
-  getData() {
-       this.service.getData().subscribe(
-            data => this.users = data,
-            err => console.log(err)
-       );
- }
-
-
+      getDados() {
+      //retorno de Dados
+      this.service.getData()
+            .subscribe(
+                  data=> this.users = data,
+                  err=> console.log(err)
+            );
+      }
 }
