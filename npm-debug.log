@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\SEVEN\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'ionic:serve',
+1 verbose cli   '--' ]
+2 info using npm@4.0.2
+3 info using node@v6.9.1
+4 verbose run-script [ 'preionic:serve', 'ionic:serve', 'postionic:serve' ]
+5 info lifecycle ionic-hello-world@~preionic:serve: ionic-hello-world@
+6 silly lifecycle ionic-hello-world@~preionic:serve: no script for preionic:serve, continuing
+7 info lifecycle ionic-hello-world@~ionic:serve: ionic-hello-world@
+8 verbose lifecycle ionic-hello-world@~ionic:serve: unsafe-perm in lifecycle true
+9 verbose lifecycle ionic-hello-world@~ionic:serve: PATH: C:\Users\SEVEN\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\SEVEN\Desktop\Anonymous\Desenvolvedor\Projetos\Apps\ionic-app-2\node_modules\.bin;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Internet Explorer;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php5.6.25;C:\Program Files\nodejs\;C:\Ruby22-x64\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\SEVEN\AppData\Local\atom\bin;C:\Users\SEVEN\AppData\Local\Microsoft\WindowsApps;C:\Users\SEVEN\AppData\Roaming\npm;C:\Program Files\Sublime Text 3;C:\Users\SEVEN\AppData\Roaming\Composer\vendor\bin;C:\Users\SEVEN\AppData\Local\Intel\XDK\bin;C:\Program Files (x86)\Google\Chrome\Application\;C:\Users\SEVEN\AppData\Roaming\npm
+10 verbose lifecycle ionic-hello-world@~ionic:serve: CWD: C:\Users\SEVEN\Desktop\Anonymous\Desenvolvedor\Projetos\Apps\ionic-app-2
+11 silly lifecycle ionic-hello-world@~ionic:serve: Args: [ '/d /s /c', 'ionic-app-scripts serve' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1026:11)
+12 verbose stack     at process.kill (internal/process.js:172:13)
+12 verbose stack     at process.listener (C:\Users\SEVEN\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Users\SEVEN\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\SEVEN\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+13 verbose cwd C:\Users\SEVEN\Desktop\Anonymous\Desenvolvedor\Projetos\Apps\ionic-app-2
+14 error Windows_NT 10.0.14965
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\SEVEN\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "ionic:serve" "--"
+16 error node v6.9.1
+17 error npm  v4.0.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
